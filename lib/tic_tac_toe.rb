@@ -51,4 +51,19 @@ def turn
   end
 end
 
+def turn_count
+  turns = 0 
+  
+  @board.each do |position|
+    if (position == "X" || position == "O")
+      turns += 1 
+    else 
+    end 
+  end 
+ 
+  turns 
+end
+
+
+
 end 
