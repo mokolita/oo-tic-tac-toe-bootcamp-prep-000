@@ -111,5 +111,18 @@ def draw?
     return false
   end 
  end 
+ 
+ def over?
+  if full? || won? || draw?
+    return true
+  else 
+    return false 
+  end 
+ end 
+ 
+ 
+ 
+ 
+ 
 
 end 
