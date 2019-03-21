@@ -64,6 +64,14 @@ def turn_count
   turns 
 end
 
+def current_player
+  
+  if turn_count.even? 
+    return "X"
+  else turn_count.odd?
+    return "O"
+  end 
 
+end 
 
 end 
