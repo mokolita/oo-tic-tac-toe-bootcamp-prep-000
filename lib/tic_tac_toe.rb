@@ -89,7 +89,20 @@ def won?
     return nil 
  end
 
-
+ def full?
+   counter = 0 
+   @board.each do |position|
+     if (position == "X" || position == "O")
+       counter +=1 
+     else 
+     end 
+   end 
+   if counter == 9 
+     return true 
+   else 
+     return false 
+   end 
+ end 
 
 
 
